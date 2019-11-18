@@ -27,6 +27,20 @@ or add
 
 to the `require` section of your `composer.json` file.
 
+For selectize with bootstrap4 theme run
+
+```bash
+$ composer require 2amigos/yii2-selectize-widget:~2.0
+```
+
+or add
+
+```
+"2amigos/yii2-selectize-widget": "2.0.*"
+```
+
+to the `require` section of your `composer.json` file.
+
 ## Usage
 
 Selectize has lots of configuration options. For further information, please check the Selectize plugin [website](https://selectize.github.io/selectize.js/).

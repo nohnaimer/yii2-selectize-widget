@@ -9,7 +9,7 @@ namespace dosamigos\selectize;
 
 use yii\web\AssetBundle;
 use yii\web\JqueryAsset;
-use yii\bootstrap4\BootstrapPluginAsset;
+use yii\bootstrap5\BootstrapPluginAsset;
 
 /**
  * SelectizeAsset
@@ -18,13 +18,13 @@ use yii\bootstrap4\BootstrapPluginAsset;
  */
 class SelectizeAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/selectize-bootstrap-4-style/dist';
+    public $sourcePath = '@npm/selectize/dist';
 
     public $css = [
-        'css/selectize.bootstrap4.css',
+        'css/selectize.bootstrap5.css',
     ];
     public $js = [
-        'js/selectize/standalone/selectize.js',
+        'js/standalone/selectize.js',
     ];
     public $depends = [
         BootstrapPluginAsset::class,

@@ -25,11 +25,10 @@
     "require": {
         "yiisoft/yii2": "2.0.*",
         "yiisoft/yii2-bootstrap5": "2.0.*",
-        "npm-asset/selectize": "dev-feature/bs-5"
+        "npm-asset/selectize": "dev-master"
     },
     "require-dev": {
-        "roave/security-advisories": "dev-latest"
-        ,
+        "roave/security-advisories": "dev-latest",
         "phpunit/phpunit": "~4.0"
     },
     "autoload": {
@@ -46,6 +45,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "0.1-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
         }
     }
 }

@@ -24,7 +24,7 @@ class SelectizeAsset extends AssetBundle
         'css/selectize.bootstrap5.css',
     ];
     public $js = [
-        'js/standalone/selectize.js',
+        'js/selectize.js',
     ];
     public $depends = [
         BootstrapPluginAsset::class,
